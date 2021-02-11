@@ -1,0 +1,9 @@
+h1 {
+  letter-spacing: 2px; /* Tracking */
+}
+
+span {
+  letter-spacing: 4px; /* Kerning */
+}
+
+/* Look at the word-spacing CSS property */
