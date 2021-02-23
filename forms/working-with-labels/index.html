@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Working with the Label Element in Forms</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Working with the Label Element in Forms</h1>
+  </header>
+  <main>
+    <form>
+    <!--
+      * The “id” attribute must match the label’s “for” attribute
+      * The “name” attribute is the name of the GET/POST variable transmitted to the server. For example, first-name=ed&last-name=bob.
+    -->
+      <p><label for="first-name">Please enter your first name: </label><input
+        id="first-name"
+        name="first-name"
+        type="text" autofocus></p>
+      <p><label for="last-name">Please enter your last name: </label><input
+        id="last-name"
+        name="last-name"
+        type="text"></p>
+      <input type="submit" value="Submit">
+    </form>
+  </main>
+</body>
+</html>
