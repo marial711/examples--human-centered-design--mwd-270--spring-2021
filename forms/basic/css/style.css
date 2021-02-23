@@ -1,0 +1,3 @@
+input:focus:not([type=submit]) {
+  outline: 2px solid rgb(100, 100, 127);
+}
