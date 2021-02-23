@@ -1,0 +1,9 @@
+input {
+  transition: 275ms;
+}
+
+/* Style all the input boxes, except for the submit button*/
+input:focus:not([type="submit"]) {
+  outline: 2px solid rgba(0, 127, 0);
+  outline-style: dotted;
+}
