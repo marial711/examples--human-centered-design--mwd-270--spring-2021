@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Working with Forms: Validating Numeric Input with RegEx Patterns</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Working with Forms: Validating Numeric Input with RegEx Patterns</h1>
+  </header>
+  <main>
+    <form>
+      <p>Enter any number between 0 – 9, inclusive <input maxlength="1" type="text" autofocus name="number" pattern="[0-9]"></p>
+      <p>Enter any <em>two</em> numbers between 0 – 9, inclusive <input maxlength="2" type="text" autofocus name="number" pattern="[0-9]{2}"></p>
+      <input type="submit" value="Submit">
+    </form>
+  </main>
+</body>
+</html>

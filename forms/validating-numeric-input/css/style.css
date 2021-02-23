@@ -1,0 +1,24 @@
+:root {
+  --basic-char-width: 20px;
+}
+
+input {
+  text-align: center;
+  border: 4px solid transparent;
+}
+
+input:not([type="submit"]) {
+  border: 4px solid pink;
+}
+
+input:invalid {
+  outline: 4px solid purple;
+}
+
+p:first-of-type > input {
+  width: var(--basic-char-width);
+}
+
+p:nth-child(2) > input {
+  width: calc(2 * var(--basic-char-width));
+}
