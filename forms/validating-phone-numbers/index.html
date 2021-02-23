@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Working with Forms: Validating Phone Numbers</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Working with Forms: Validating Phone Numbers</h1>
+  </header>
+  <main>
+    <form>
+      <p>Enter your phone number (formatted as (xxx) xxx‒xxxx) <input
+        autofocus
+        type="tel"
+        name="phone-number"
+        maxlength="14"
+        pattern="\([0-9]{3}\)[ ][0-9]{3}-[0-9]{4}"></p>
+      <input type="submit" value="Submit">
+    </form>
+  </main>
+</body>
+</html>
