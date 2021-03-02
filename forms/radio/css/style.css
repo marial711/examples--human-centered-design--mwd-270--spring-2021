@@ -1,0 +1,19 @@
+fieldset {
+  border: 1px solid rgb(220, 220, 220);
+  padding: 20px;
+}
+
+legend::before,
+legend::after {
+  content: '';
+  padding: 4px;
+}
+
+[type="radio"] {
+  margin-right: 10px;
+}
+
+[type="submit"] {
+  padding: 20px;
+  border: 1px solid rgb(220, 220, 220);
+}
