@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms: Working with a Datalist</title>
+</head>
+<body>
+  <header>
+    <h1>Forms: Working with a Datalist</h1>
+  </header>
+  <main>
+    <form>
+      <label for="tri-state-area">Choose a state from the tri-state area:</label>
+      <input required id="tri-state-area" list="the-three-states" name="state">
+      <datalist id="the-three-states">
+        <option value="New York">
+        <option value="New Jersey">
+        <option value="Connecticut">
+      </datalist>
+      <p><input type="submit" value="Submit Your State"></p>
+    </form>
+  </main>
+</body>
+</html>
